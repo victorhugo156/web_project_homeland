@@ -1,4 +1,4 @@
-.wrapper{
+.info{
 max-width: 830px;
 width: 100%;
 
@@ -7,7 +7,7 @@ margin-right: 302px;
 margin-bottom: 94px;
 }
 
-.wrapper__title{
+.info__title{
     font-size: 54px;
     font-weight: 900;
     line-height: 58px;
@@ -15,7 +15,7 @@ margin-bottom: 94px;
     text-align: start;
 }
 
-.wrapper__container{
+.info__container{
     display: flex;
     flex-direction: column;
 
@@ -24,25 +24,25 @@ margin-bottom: 94px;
     line-height: 34px;
 }
 
-.wrapper__container_quote{
+.info__container_quote{
     text-align: end;
 }
 
-.wrapper__text{
+.info__text{
     font-size: 16px;
     font-weight: 400;
     line-height: 163%;
 }
 
 @media screen and (min-width: 472px) and (max-width: 1100px){
-    .wrapper{
+    .info{
         margin: 16px;
     }
 }
 
 
 @media screen and (min-width: 472px) and (max-width: 999px) {
-    .wrapper{
+    .info{
         max-width: 720px;
 
         margin-left: 16px;
@@ -55,7 +55,7 @@ margin-bottom: 94px;
 
 @media screen and (max-width: 471px) {
 
-    .wrapper{
+    .info{
         max-width: 288px;
 
         margin-left: 16px;
@@ -64,22 +64,22 @@ margin-bottom: 94px;
         margin-bottom: 64px;
     }
 
-    .wrapper__title{
+    .info__title{
         font-size: 32px;
         line-height: 35px;
     }
 
-    .wrapper__container{
+    .info__container{
         font-size: 24px;
         line-height: 30px;
     }
 
-    .wrapper__container_quote{
+    .info__container_quote{
         font-size: 24px;
         line-height: 30px;
     }
 
-    .wrapper__text{
+    .info__text{
         font-size: 16px;
         line-height: 163%;
     }
