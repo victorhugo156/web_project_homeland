@@ -7,7 +7,7 @@ margin-right: 302px;
 margin-bottom: 94px;
 }
 
-.content__title{
+.content__wrapper__title{
     font-size: 54px;
     font-weight: 900;
     line-height: 58px;
@@ -15,7 +15,7 @@ margin-bottom: 94px;
     text-align: start;
 }
 
-.content__container{
+.content__wrapper__container{
     display: flex;
     flex-direction: column;
 
@@ -28,7 +28,7 @@ margin-bottom: 94px;
     text-align: end;
 }
 
-.content__text{
+.content__wrapper__text{
     font-size: 16px;
     font-weight: 400;
     line-height: 163%;
@@ -64,12 +64,12 @@ margin-bottom: 94px;
         margin-bottom: 64px;
     }
 
-    .content__title{
+    .content__wrapper__title{
         font-size: 32px;
         line-height: 35px;
     }
 
-    .content__container{
+    .content__wrapper__container{
         font-size: 24px;
         line-height: 30px;
     }
@@ -79,7 +79,7 @@ margin-bottom: 94px;
         line-height: 30px;
     }
 
-    .content__text{
+    .content__wrapper__text{
         font-size: 16px;
         line-height: 163%;
     }
