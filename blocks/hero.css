@@ -7,16 +7,6 @@
     align-items: center;
 }
 
-/* .hero__title-wrapper {
-    max-width: 720px;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-
-    margin: 0 auto;
-} */
-
 
 .hero__headline {
     max-width: 720px;
@@ -71,7 +61,7 @@
         margin-bottom: 40px
 
     }
-    
+
 }
 
 
